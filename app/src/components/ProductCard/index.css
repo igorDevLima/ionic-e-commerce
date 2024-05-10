@@ -1,5 +1,6 @@
 ion-card {
   height: 430px;
+  max-width: 430px;
 }
 
 ion-card img {
