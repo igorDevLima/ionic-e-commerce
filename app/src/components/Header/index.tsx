@@ -15,7 +15,7 @@ interface HeaderProps {}
 
 const Header: React.FC<HeaderProps> = () => {
   return (
-    <IonHeader collapse="fade">
+    <IonHeader collapse="fade" translucent={true}>
       <IonToolbar>
         <IonItem lines="none">
           <IonIcon icon={cartSharp}> </IonIcon> Ion-shop
