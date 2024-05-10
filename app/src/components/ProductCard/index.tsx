@@ -21,7 +21,7 @@ interface ProductProps {
 
 const ProductCard: React.FC<ProductProps> = ({ productData }) => {
   return (
-    <IonCard>
+    <IonCard color="dark">
       <img alt="product" src={productData.image} />
       <IonCardHeader>
         <IonCardTitle
