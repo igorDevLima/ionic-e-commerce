@@ -1,6 +1,7 @@
 ion-card {
   height: 430px;
   max-width: 430px;
+  border: 1px solid var(--ion-color-primary, #fff);
 }
 
 ion-card img {
@@ -18,8 +19,8 @@ ion-card ion-card-header {
 
 ion-card ion-card-header,
 ion-card ion-card-content {
-  padding: 8px;
-  padding-inline-start: 8px !important;
+  padding: 12px;
+  padding-inline-start: 12px !important;
 }
 
 ion-card ion-card-header ion-card-subtitle {
