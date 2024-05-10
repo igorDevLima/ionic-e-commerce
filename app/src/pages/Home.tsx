@@ -9,7 +9,6 @@ const Home: React.FC = () => {
     <IonPage>
       <Header />
       <Content />
-      <Footer />
     </IonPage>
   );
 };
